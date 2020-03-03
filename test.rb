@@ -1,8 +1,5 @@
 require 'selenium-webdriver'
 
-## For Local Runs ##
-os = "macOS"
-driver_version="chromedriver80"
 
 Selenium::WebDriver::Chrome::Service.driver_path=('/usr/local/bin/chromedriver')
 @driver = Selenium::WebDriver.for :chrome
